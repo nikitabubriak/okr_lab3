@@ -11,10 +11,373 @@
 
 <body>
     
-    <div class = "container">
-        <p>lab3</p>
+    <header>
+        <a id = "logo" href = "https://rozetka.com.ua">
+            <img src = "resources/logo_rozetka.svg">
+        </a>
+        
+        <div class = "search">
+            <input type = "text" placeholder = "Поиск">
+            <button>Найти</button>
+        </div>
+        
+        <nav class = "menu">
+            <ul class = "menu-list">
+                <li class = "menu-item">
+                    <a class = "menu-item-link" href = "/contacts">
+                        <span class = "menu-item-title">Контакты</span>
+                    </a>
+                </li>
+                <li class = "menu-item">
+                    <a class = "menu-item-link" href = "/help">
+                        <span class = "menu-item-title">Помощь</span>
+                    </a>
+                </li>
+                <li class = "menu-item">
+                    <a class = "menu-item-link" href = "/signup">
+                        <span class = "menu-item-title">Регистрация</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class = "sidebar">
+            <nav class = "catalog">
+                <ul class = "catalog-list">
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/1">
+                            <span class = "catalog-item-title">Ноутбуки и компьютеры</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/2">
+                            <span class = "catalog-item-title">Смартфоны, ТВ и электроника</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/3">
+                            <span class = "catalog-item-title">Товары для геймеров</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/4">
+                            <span class = "catalog-item-title">Бытовая техника</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/5">
+                            <span class = "catalog-item-title">Товары для дома</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/6">
+                            <span class = "catalog-item-title">Инструменты и автотовары</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/7">
+                            <span class = "catalog-item-title">Сантехника и ремонт</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/8">
+                            <span class = "catalog-item-title">Дача, сад и огород</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/9">
+                            <span class = "catalog-item-title">Спорт и увлечения</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/10">
+                            <span class = "catalog-item-title">Одежда, обувь и украшения</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/11">
+                            <span class = "catalog-item-title">Красота и здоровье</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/12">
+                            <span class = "catalog-item-title">Детские товары</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/13">
+                            <span class = "catalog-item-title">Канцтовары и книги</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/14">
+                            <span class = "catalog-item-title">Алкогольные напитки и продукты</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/15">
+                            <span class = "catalog-item-title">Товары для бизнеса</span>
+                        </a>
+                    </li>
+                    <li class = "catalog-item">
+                        <a class = "catalog-item-link" href = "/catalog/16">
+                            <span class = "catalog-item-title">Услуги и сервисы</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+
+    <main>
+        <div class = "main-picture">
+            <div class = "sale-big">
+                <a class = "sale-link" href = "/sale">
+                    <img src = "resources/content_1200x400px.jpg">
+                </a>
+            </div>
+
+            <div class = "sale-small">
+                <a class = "sale-link" href = "/sale">
+                    <img src = "resources/content_600x400px.jpg">
+                </a>
+            </div>
+        </div>
+
+        <div class = "products-container">
+            <h2>Популярные товары</h2><br>
+            <div class = "products-grid">
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+                <div class = "product-tile">
+                    <a class = "product-link" href = "/apple_macbook_air_2020_256_gold">
+                        <img src = "resources/apple_macbook_air_2020_256_gold.jpg">
+                        <br><br><br><span class = "product-name"> Ноутбук Apple MacBook Air 13" 256GB 2020 Gold (MWTL2)</span>
+                    </a>
+                    <br><br><span class = "product-price">33 999 ₴</span>
+                </div>
+            </div>
+        </div>
+
+        <div class = "pagination">
+            <a href = "#">&laquo;</a>
+            <a class = "active" href = "#">1</a>
+            <a href = "#">2</a>
+            <a href = "#">3</a>
+            <a href = "#">&raquo;</a>
+        </div>
+
+    </main>
+
+    <div class = "fixed">
+        <div class = "account-actions">
+            <div class = "actions-bar">
+    
+                <a class = "action-link" href = "/account">
+                <div class = "action" id = "account">
+                    <span class = "action-title">Личный кабинет</span>
+                    <img src = "resources/account_circle-24px.svg">
+                </div>
+                </a>
+    
+                <a class = "action-link" href = "/wishlist">
+                <div class = "action" id = "wishist">
+                    <img src = "resources/favorite_border-24px.svg">
+                    <span class = "action-title">Список желаний</span>
+                </div>
+                </a>
+    
+                <a class = "action-link" href = "/cart">
+                <div class = "action" id = "shopping-cart">
+                    <img src = "resources/shopping_cart-24px.svg">
+                    <span class = "action-title">Корзина</span>
+                </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class = "up-action">
+            <button onclick = "goUp()" id = "up-button">
+                <img src = "resources/arrow_upward-24px.svg">
+        </button>
+        </div>
     </div>
     
+    
+    <footer>
+        <nav class = "footer-menu">
+            <ul class = "footer-category">
+                <li class = "footer-category-item">
+                    <span class = "footer-category-title">Помощь</span>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Доставка и оплата</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Кредит</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Гарантия</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Возврат товара</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Сервисные центры</span>
+                    </a>
+                </li>
+            </ul>
+        
+            <ul class = "footer-category">
+                <li class = "footer-category-item">
+                    <span class = "footer-category-title">Информация о компании</span>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">О нас</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Условия использования сайта</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Контакты</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Вакансии</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class = "footer-category">
+                <li class = "footer-category-item">
+                    <span class = "footer-category-title">Сервисы</span>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Rozetka Premium</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Перевод денег с карты на карту</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Подарочные сертификаты</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class = "footer-category">
+                <li class = "footer-category-item">
+                    <span class = "footer-category-title">Партнерам</span>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Продавать на Розетке</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Сотрудничество с нами</span>
+                    </a>
+                </li>
+                <li class = "footer-category-item">
+                    <a class = "footer-category-item-link" href = "/help">
+                        <span class = "footer-category-item-title">Styleguide и логотип</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </footer>
+
+    <script>
+        let up_btn = document.getElementById("up-button");
+
+        window.onscroll = function() {scroll()};
+
+        function scroll() 
+        {
+        if (document.documentElement.scrollTop > 650) 
+                up_btn.style.opacity = 0.75;
+        else    up_btn.style.opacity = 0;
+        }
+
+        function goUp() {document.documentElement.scrollTop = 0};
+
+    </script>
+
 </body>
 
 </html>
